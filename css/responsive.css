@@ -1,0 +1,246 @@
+/* 
+
+
+File:           CSS Base
+Version:        1.1
+Last change:     
+Author:        HTMLmate
+
+*/
+
+/*-------- css code for responsive layout  --------*/
+/*  To make Responsive
+---------------------------------------------------------------------- /
+*   1 - media screen and (max-width: 1199px)
+*   2 - media screen and (max-width: 991px)
+*   3 - media screen and (max-width: 767px)
+*   4 - media screen and (max-width: 680px)
+*   5 - media screen and (max-width: 480px)
+*
+---------------------------------------------------------------------- 
+
+
+/*  1 - media screen and (max-width: 1199px)
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1199px) { 
+	.banner-area-section.home-2 {
+		padding-bottom: 130px;
+		padding-top: 230px;
+	}
+	.banner-mock-up.home-1 img {
+		width: 70%;
+		float: left;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+	.banner-mock-up.home-1 {
+		display: none;
+	}
+	.features-text-icon {
+		margin-top: 25px;
+	}
+	.about-section-text {
+		margin-bottom: 30px;
+		margin-top: 50px;
+	}
+	.extra-pic {
+		display: none;
+	}
+	.testimonial-name-designation {
+		max-width: 370px;
+		margin: 50px auto 0;
+	}
+	.testimonial-content {
+		text-align: center;
+	}
+	.pricing-plan {
+		max-width: 370px;
+		margin: 30px auto;
+	}
+	.banner-slider {
+		position: relative;
+		top: inherit;
+		left: inherit;
+		margin-top: 30px;
+	}
+	.banner-area-section.home-3.home-2 {
+		padding-bottom: 0;
+	}
+	.banner-area-head {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		padding: 0px 30px;
+	}
+	.navbar-default .navbar-toggle {
+		margin-left: 0;
+	}
+	.banner-area-head h1 {
+		font-size: 40px;
+	}
+	.banner-area-head  span {
+		font-size: 20px;
+	}
+	.banner-area-section.home-2 {
+		padding-top: 200px;
+		padding-bottom: 100px;
+	}
+	.section-content {
+		padding: 50px 0px;
+	}
+	.extra-features-section .features-text-title {
+		text-align: right;
+	}
+	.extra-features-section .extra-right .features-icon, .extra-features-section .extra-left .features-icon {
+		float: right;
+		margin-right: 0;
+		margin-left: 20px;
+	}
+	.extra-features-section .features-text-dec  {
+		text-align: right;
+		margin: inherit;
+	}
+	.extra-features-section .section-content {
+		padding-top: 60px;
+	}
+	.extra-features-section .section-title,
+	.pricing-plan-content .section-title {
+		padding-bottom: 0;
+	}
+	.extra-right-content {
+		margin-top: 0;
+	}
+	.how-to-install .section-content {
+		padding-bottom: 110px;
+	}
+	.owl-nav {
+		display: none;
+	}
+	.contact-info input {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.contact-info-1 input {
+		margin-top: 0;
+	}
+	.footer-widget.pb20 {
+		margin-top: 30px;
+	}
+	.team-member-details {
+		max-width: 270px;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.main-menu {
+		padding: 10px 0 0 0;
+	}
+	.main-menu-container.tbg.navbar-fixed-top {
+		padding-top: 0px;
+	}
+	.title-install h2 {
+		font-size: 36px;
+	}
+	.our-team-section .section-title {
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.banner-area-head h1 {
+		font-size: 30px;
+	}
+	.banner-area-head span {
+		font-size: 18px;
+	}
+	.store-list {
+		text-align: center;
+		margin-top: 20px !important;
+	}
+	.store-list li {
+		margin-bottom: 20px;
+	}
+	.features-icon {
+		height: 100px;
+		width: 100px;
+		line-height: 140px;
+	}
+	.section-title .title {
+		font-size: 30px;
+	}
+
+	.showcase-content .pb40 {
+		padding-bottom: 15px;
+	}
+	.pb50 {
+		padding-bottom: 15px;
+	}
+	.download-now h3 {
+		font-size: 30px;
+	}
+	.download-area-text span {
+		font-size: 20px;
+	}
+	.banner-area-section.home-2 {
+		padding-top: 150px;
+		padding-bottom: 100px;
+		text-align: center;
+	}
+	.download-store li {
+		margin-left: 00px;
+	}
+	.landy-pricing .pricing-price .content-price {
+		font-size: 36px;
+	}
+	.landy-pricing .content-title {
+		font-size: 26px;
+	}
+	.pricing-plan-list {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.testimonial-section .container {
+		padding: 0px 15px;
+	}
+	.features-text {
+		overflow: hidden;
+	}
+	.banner-slide-area .owl-controls {
+		left: -40px;
+	}
+	.section-content {
+		padding: 30px 0px;
+	}
+	.features-section {
+		margin-top: 20px;
+	}
+
+	.client-details {
+		padding-top: 5px;
+	}
+	.blog-link h2 {
+		font-size: 20px;
+	}
+	.blog-link {
+		padding-bottom: 5px;
+	}
+	.blog-text-pic {
+		padding-bottom: 20px;
+	}
+}
+@media screen and (max-width: 375px) { 
+	.banner-slide-area {
+		max-width: 250px;
+	}
+	.banner-slide-area .owl-controls {
+		display: none;
+	}
+}

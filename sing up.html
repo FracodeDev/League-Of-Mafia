@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام | لیگ مافیا </title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: rgba(70, 9, 238, 0.75);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 380px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding: 16px;
+            border: 1px solid #e1e4e8;
+            background-color: #fff;
+            border-radius: 6px;
+            box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+        }
+        .input {
+            width: calc(100% - 15px);
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #dfe2e5;
+            box-sizing: border-box;
+            border-radius: 6px;
+        }
+        .btn {
+            width: 100%;
+            background-image: linear-gradient(269deg,rgb(174,0,255) 0%,#4c00ff 100%);
+            color: #fff;
+            padding: 10px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-image: linear-gradient(269deg,rgb(220,0,255) 0%,#6600ff 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>ثبت نام لیگ مافیا</h2>
+        <form method="post">
+            <input class="input" type="text" placeholder="نام کاربری" name="username" required>
+            <input class="input" type="email" placeholder="ایمیل" name="email" required>
+            <input class="input" type="password" placeholder="رمز" name="password" required>
+            <button class="btn" type="submit">sing up</button>
+            <p style="text-align: center;"><a href="login.html">قبلا ثبت نام کرده ام | کلیک جهت ورود به سایت</a></p>
+        </form>
+    </div>
+</body>
+</html>
